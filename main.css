@@ -19,13 +19,25 @@ h2, legend {
 }
 
 fieldset {
-    max-width: 500px;
+    max-width: 350px;
     margin-right:auto;
     margin-left:auto;
+    border: 1px solid black;
+    border-radius:10px;
 }
 
 ul {
     list-style-type:none;
+}
+
+li {
+    width: 100%;
+    background-color:white;
+    color:blue;
+    text-align:left;
+    border: 1px solid white;
+    margin-top:10px;
+    border-radius: 10px;
 }
 
 input {
@@ -34,4 +46,10 @@ input {
     font-size:14px;
     background-color:red;
     color:white;
+    border-radius:10px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size:14px;
 }
