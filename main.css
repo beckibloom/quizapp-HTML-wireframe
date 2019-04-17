@@ -19,7 +19,7 @@ h2, legend {
 }
 
 fieldset {
-    max-width: 350px;
+    min-width: 200px;
     margin-right:auto;
     margin-left:auto;
     border: 1px solid black;
@@ -28,6 +28,8 @@ fieldset {
 
 ul {
     list-style-type:none;
+    display:flex;
+    flex-direction:column;
 }
 
 li {
@@ -70,4 +72,14 @@ div.current-score {
 footer {
     margin-top: 20px;
     font-size:14px;
+}
+
+@media only screen and (min-width:600px) {
+    ul {
+        flex-direction:row;
+    }
+
+    li {
+        margin:10px;
+    }
 }
