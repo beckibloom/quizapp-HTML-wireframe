@@ -49,6 +49,17 @@ input {
     border-radius:10px;
 }
 
+h3 {
+    margin-top:20px;
+    font-size:18px;
+}
+
+div.current-score {
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 14px;
+}
+
 .success-image {
     max-width: 350px;
     max-height: 250px;
