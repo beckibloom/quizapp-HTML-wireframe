@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:lightblue;
+}
+
+body {
+    text-align:center;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+h2, legend {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+fieldset {
+    max-width: 500px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+ul {
+    list-style-type:none;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size:14px;
+    background-color:red;
+    color:white;
+}
